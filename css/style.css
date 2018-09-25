@@ -4,6 +4,7 @@
     font-family: monospace;
     font-size: 15px;
 }
+
 h1 {
     font-size: 30px;
     margin-left: 30px
@@ -11,17 +12,19 @@ h1 {
 
 form {
     margin-left: 10px;
-    
-    
+
+
 }
 
 form label {
     display: inline-block;
     margin-bottom: 5px;
 }
+
 form div {
     margin-bottom: 5px;
 }
+
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
@@ -35,19 +38,47 @@ form textarea {
     margin-bottom: 5px;
 }
 
+form textarea {
+    height: 150px;
+
+}
+
 form input[type="submit"] {
     width: 125px;
     height: 40px;
     font-size: 2em;
-    background-color: #EA8859;
-    color: #252C3F;
-    border: none;
+    background-color: #000515;
+    color: #EA8859;
+    border: 2px solid #EA8859;
     text-transform: uppercase;
     font-family: monospace;
     font-stretch: ultra-expanded;
 }
 
-form textarea {
-    height: 150px;
-    
+form input[type="submit"]:hover {
+    width: 125px;
+    height: 40px;
+    font-size: 2em;
+    background-color: #EA8859;
+    color: #000515;
+    border: 2px solid #000515;
+    ;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-stretch: ultra-expanded;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+
+form select:focus,
+form input:focus,
+form textarea:focus {
+    background-color: #F0EBDF;
+    color: #000515;
+    border: 1px solid #000515;
+    outline: none;
+
 }

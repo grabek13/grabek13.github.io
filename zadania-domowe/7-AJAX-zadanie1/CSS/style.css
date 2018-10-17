@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 600px;
+    margin-left: 30px;
+    background-color: #5C444A;
+    color: #221522;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    background-color: #221522;
+    color: #EEF0F5;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #EEF0F5;
+    color: #221522;
+}
+
+.even {
+    width: 300px;
+    background-color: #C0ACA5;
+    color: #221522;
+    margin-bottom: 5px;
+}
+
+.odd {
+    width: 300px;
+    background-color: #8D7B76;
+    color: #221522;
+    margin-bottom: 5px;
+}

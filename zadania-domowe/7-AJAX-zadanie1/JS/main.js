@@ -22,7 +22,7 @@ btn.click(function () {
                 return;
             }
             output.append(html);
-            $('div:last').addClass('odd');
+            $('div div:last').addClass('odd');
             even = true;
         }
     });

@@ -16,8 +16,8 @@ btn.click(function () {
             let html = `<div><h2>${data.imie} ${data.nazwisko}</h2><h4>${data.zawod} ${data.firma}</h4></div>`;
             if (even) {
                 output.append(html);
-                console.log($('div:last'));
-                $('div:last').addClass('even');
+                console.log($('div div:last'));
+                $('div div:last').addClass('even');
                 even = false;
                 return;
             }

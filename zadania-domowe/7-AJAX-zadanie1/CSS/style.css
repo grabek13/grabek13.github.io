@@ -23,11 +23,13 @@ button {
     cursor: pointer;
     outline: none;
     margin-bottom: 10px;
+    border: none;
 }
 
 button:hover {
     background-color: #EEF0F5;
     color: #221522;
+    border: none;
 }
 
 .even {
@@ -35,6 +37,8 @@ button:hover {
     background-color: #C0ACA5;
     color: #221522;
     margin-bottom: 5px;
+    border: 2px solid #221522;
+    
 }
 
 .odd {
@@ -42,4 +46,9 @@ button:hover {
     background-color: #8D7B76;
     color: #221522;
     margin-bottom: 5px;
+    border: 2px solid #221522;
+}
+
+div h2, div h4 {
+    margin-left: 5px;
 }

@@ -1,9 +1,15 @@
 const btn = $('#btn');
-const output = $('#dane-programisty');
+
 
 const address = "https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php";
 
 let even = true;
+
+
+
+btn.after('<div id="dane-programisty"></div>');
+
+const output = $('#dane-programisty');
 
 btn.click(function () {
     console.log("Pobierz dane");
